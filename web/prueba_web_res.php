@@ -6,7 +6,7 @@
 <?php if($edad == 0):?>
 <h2>NO ESPECIFICO LA EDAD :(</h2>
 <?php elseif($edad < 18):?>
-    <button class="btn-danger btn-block">NO SE PERMITE LA ENTRADA</button>
+    <button class="btn btn-danger btn-block">NO SE PERMITE LA ENTRADA</button>
 <?php else:?>
-    <button class="btn-success btn-block">INGRESAR</button>
+    <button class="btn btn-success btn-block">INGRESAR</button>
 <?php endif; ?>
